@@ -1,0 +1,165 @@
+body {
+  padding: 0;
+  margin: 0;
+  text-decoration: 0;
+  font-family: montserrat;
+  color: white;
+  background-color: #000;
+}
+p {
+  color: white;
+  font-size: 30px;
+  padding: 50px;
+}
+h1 {
+  color: white;
+  font-size: 50px;
+}
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: black;
+  border-bottom: 1px solid #ffff9d;
+  position: sticky;
+  top: 0;
+}
+.menu {
+  display: flex;
+  padding: 20px;
+}
+.menu ul li {
+  display: inline;
+  list-style: none;
+  padding: 30px;
+}
+.menu ul li a {
+  padding: 20px;
+  text-decoration: none;
+  color: #ffff9d;
+  font-weight: 700;
+}
+.menu ul li a:hover {
+  background-color: #feff00;
+  color: #000;
+}
+.section {
+  display: none;
+}
+.section.active {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+}
+.container div {
+  width: 900px;
+  background-color: black;
+  max-width: 80%;
+  margin: 20px;
+  flex: 1 1 800px;
+  flex-wrap: wrap;
+}
+#section1 {
+  p {
+    font-size: 40px;
+    text-align: center;
+  }
+}
+#section4 {
+  div {
+    background-color: #feff00;
+    width: 400px;
+    height: 220px;
+    margin: 20px;
+    flex: 1 1 200px;
+  }
+}
+#social {
+  flex: 1 1 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  border-bottom: 10px groove #feff00;
+  border-left: 10px ridge #feff00;
+  border-top: 1px solid #feff00;
+  border-right: 1px solid #feff00;
+  button {
+    width: 150px;
+    height: 50px;
+    margin: 10px;
+    padding: 10px;
+    background-color: #000;
+    border: 1px solid #feff00;
+    color: #fff;
+    font-family: montserrat;
+    font-weight: 900;
+    cursor: pointer;
+  }
+  button:hover {
+    background-color: #feff00;
+    color: #000;
+  }
+}
+#form {
+  flex: 1 1 00px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  border-bottom: 10px groove #feff00;
+  border-left: 10px ridge #feff00;
+  border-top: 1px solid #feff00;
+  border-right: 1px solid #feff00;
+  input,
+  textarea {
+    display: flex;
+    justify-content: flex-start;
+    margin: 10px;
+    background-color: #000;
+    border: 1px solid #feff00;
+    color: #fff;
+    font-family: montserrat;
+    font-weight: 400;
+  }
+  input {
+    height: 20px;
+  }
+  label {
+    margin-right: 10px;
+  }
+  textarea {
+    display: flex;
+    height: 60px;
+    width: 170px;
+    resize: none;
+  }
+  input[type="submit"] {
+    background-color: #000;
+    border: 1px solid #feff00;
+    color: #fff;
+    font-family: montserrat;
+    text-transform: uppercase;
+    font-weight: 800;
+    cursor: pointer;
+  }
+  input[type="submit"]:hover {
+    background-color: #feff00;
+    color: #000;
+  }
+}
+span {
+  color: #feff00;
+}

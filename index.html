@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Portifólio pessoal</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+    </style>
+  </head>
+  <body>
+    <header class="header">
+      <a href="#home" onclick="mostrarLink('section1')"
+        ><img src="abelha (1).png" alt="Logo"
+      /></a>
+      <nav id="menu" class="menu">
+        <ul>
+          <li><a href="#home" onclick="mostrarLink('section1')">Home</a></li>
+          <li><a href="#sobre" onclick="mostrarLink('section2')">Sobre</a></li>
+          <li>
+            <a href="#formacao" onclick="mostrarLink('section3')">Formação</a>
+          </li>
+          <li>
+            <a href="#portfolio" onclick="mostrarLink('section4')"
+              >Portifolio</a
+            >
+          </li>
+          <li>
+            <a href="#contato" onclick="mostrarLink('section5')">Contato</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <section class="container">
+      <div id="section1" class="section active">
+        <p>
+          Olá me chamo <span>Leonardo Oliveira!</span><br />
+          Bem vindo ao meu portifólio pessoal.
+        </p>
+        <img src="abelha (1).png" alt="Logo" />
+      </div>
+      <div id="section2" class="section">
+        <h1>Sobre mim</h1>
+        <p>
+          Sou aluno da faculdade <span>Uninter</span>, trabalho atualmente fora
+          da area de TI. No meu dia-a-dia de trabalho gerencio e organizo
+          estoques de peças de manutenção de maquinas.<br />Em meu tempo livre
+          fora do trabalho eu estudo, gosto de jogar alguns jogos e assistir
+          séries e animes.
+        </p>
+      </div>
+      <div id="section3" class="section">
+        <h1>Formação</h1>
+        <p>
+          Estou cursando Análise e Desenvolvimento de Sistemas (ADS) na
+          Faculdade <span>Uninter</span>. Já estou no curso há 3 meses e também
+          estou fazendo alguns cursos complementares de HTML, CSS e JavaScript
+          para adquirir mais experiência.
+        </p>
+      </div>
+      <div id="section4" class="section">
+        <h1>Portfólio</h1>
+        <div>projeto 1</div>
+        <div>projeto 2</div>
+        <div>projeto 3</div>
+        <div>projeto 4</div>
+      </div>
+      <div id="section5" class="section">
+        <div id="social">
+          <h3>Minhas Redes Sociais</h3>
+          <a href="https://www.linkedin.com/in/leofoliv/" target="_blank"
+            ><button>Linkedin</button></a
+          >
+          <a href="https://x.com/leofoliv" target="_blank"
+            ><button>X/Twitter</button></a
+          >
+          <a href="https://www.instagram.com/leofoliv/" target="_blank"
+            ><button>Instagram</button></a
+          >
+          <a href="https://github.com/leofoliv" target="_blank"
+            ><button>Github</button></a
+          >
+        </div>
+        <div id="form">
+          <h3>Deixe uma mensagem</h3>
+          <form>
+            <label for="nome">Nome:</label>
+            <input name="nome" type="text" id="nome" /><br />
+            <label for="email">Email:</label>
+            <input name="email" type="email" id="email" /><br />
+            <label for="celular">Celular:</label>
+            <input name="celular" type="number" id="celular" /><br />
+            <label for="mensagem">Comentário:</label>
+            <textarea name="mensagem" placeholder="Digite aqui."></textarea>
+            <input type="submit" name="enviar" value="enviar" />
+          </form>
+        </div>
+      </div>
+    </section>
+    <script src="script.js"></script>
+  </body>
+   
+</html>
