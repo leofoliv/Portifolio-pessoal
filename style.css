@@ -9,7 +9,7 @@ body {
 p {
   color: white;
   font-size: 30px;
-  /* padding: 50px; */
+  padding: 50px;
 }
 h1 {
   color: white;
@@ -126,7 +126,8 @@ h1 {
   border-top: 1px solid #feff00;
   border-right: 1px solid #feff00;
   p {
-    font-size: 25px;
+    font-size: 20px;
+    padding: 0;
   }
   input,
   textarea {
