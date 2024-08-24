@@ -207,7 +207,7 @@ span {
   .header {
     position: relative;
     img {
-      display: none;
+      display: block;
     }
     .section.active {
       flex-wrap: wrap;
