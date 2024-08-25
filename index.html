@@ -6,14 +6,18 @@
     <link rel="stylesheet" href="style.css" />
     <title>Portifólio pessoal</title>
     <style>
+      /* Fonte importada do Google Fonts */
       @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
     </style>
   </head>
   <body>
+    <!-- Header e Navbar para navegação dos links -->
     <header class="header">
+      <!-- Logo com link de ínicio -->
       <a href="#home" onclick="mostrarLink('section1')"
-        ><img src="abelha (1).png" alt="Logo"
+        ><img src="abelha.png" alt="Logo"
       /></a>
+      <!-- Navbar com links, com a função "mostraLink()" quando clicada aparece a section selecionada -->
       <nav id="menu" class="menu">
         <ul>
           <li><a href="#home" onclick="mostrarLink('section1')">Home</a></li>
@@ -32,13 +36,14 @@
         </ul>
       </nav>
     </header>
+    <!-- Sections onde ficam os artigos e elementos do site  -->
     <section class="container">
       <div id="section1" class="section active">
         <p>
           Olá me chamo <span>Leonardo Oliveira!</span><br />
           Bem vindo ao meu portifólio pessoal.
         </p>
-        <img src="abelha (1).png" alt="Logo" />
+        <img src="abelha.png" alt="Logo" />
       </div>
       <div id="section2" class="section">
         <h1>Sobre mim</h1>
@@ -54,12 +59,14 @@
         <h1>Formação</h1>
         <p>
           Estou cursando Análise e Desenvolvimento de Sistemas (ADS) na
-          Faculdade <span>Uninter</span>. Já estou no curso há 3 meses e também
-          estou fazendo alguns cursos complementares de HTML, CSS e JavaScript
-          para adquirir mais experiência.
+          Faculdade <span>Uninter</span>. Estou fazendo alguns cursos
+          complementares de HTML, CSS e JavaScript para adquirir mais
+          experiência. Falo português fluentemente, inglês é intermediário na
+          leitura e escrita.
         </p>
       </div>
       <div id="section4" class="section">
+        <!-- Section do portifólio, separado em 4 divs com cada link dos projetos com uma pré-vizualização -->
         <h1 id="t1">Portfólio</h1>
         <div class="container2">
           <div id="p1">
@@ -77,6 +84,7 @@
         </div>
       </div>
       <div id="section5" class="section">
+        <!-- Section de contatos, separado com uma div com minhas redes sociais e outra com um form de contato com inputs de nome, email, celular e mensagem -->
         <div class="container3">
           <div id="social">
             <h3>Minhas Redes Sociais</h3>
@@ -122,5 +130,4 @@
     </section>
     <script src="script.js"></script>
   </body>
-   
 </html>
